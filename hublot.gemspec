@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Hublot::VERSION
   gem.authors       = ["Brett Shollenberger"]
   gem.email         = ["brett.shollenberger@gmail.com"]
-  gem.description   = "Date-sensitive humanized datetime"
+  gem.description   = "Date-sensitive humanized datetim"
   gem.summary       = "Include hublot inside any class that includes a created_at attribute, and call the pretty method on that object to return context-sensitive datetime."
   gem.homepage      = ""
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'active_support'
   gem.add_development_dependency 'i18n'
+  gem.add_development_dependency 'rake'
 end
