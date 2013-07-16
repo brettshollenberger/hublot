@@ -39,4 +39,4 @@ Hublot makes Facebook-style datetime-contextual datetimes a cinch for your Activ
   
 Call the pretty method in your views:
 
-    <%= @comment.pretty %>
+    <%= @comment.created_at.pretty %>
