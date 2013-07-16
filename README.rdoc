@@ -11,7 +11,7 @@ Call the pretty method in your views:
     <%= @comment.created_at.pretty %>
     
 Hublot extends ActiveSupport::TimeWithZone, so the pretty method will work on any field of that class, 
-like the defaults baked into ActiveRecord, `created_at` and `updated_at`. 
+like the defaults baked into ActiveRecord, created_at and updated_at. 
 
 Hublot does not currently support other ORMs.
 
