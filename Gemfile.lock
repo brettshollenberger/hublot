@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hublot (0.0.2)
+    hublot (0.0.4)
       rails (> 3.0.0)
 
 GEM

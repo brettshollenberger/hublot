@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["brett.shollenberger@gmail.com"]
   s.homepage    = "http://github.com/brettshollenberger/hublot"
   s.summary     = "Adds datetime humanization to Active Record objects."
-  s.description = "Extends ActiveSupport::TimeWithZone"
+  s.description = "Humanizes datetime for Active Record objects."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]

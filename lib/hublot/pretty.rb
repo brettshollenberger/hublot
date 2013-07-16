@@ -115,6 +115,6 @@ private
   end
 
   def datetimefiesta
-    self.strftime("%A, %B%e at%l:%M%p")
+    self.strftime("%A, %B %e at%l:%M%p")
   end
 end
