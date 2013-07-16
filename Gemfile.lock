@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    hublot (0.0.1)
-      rails (~> 3.2.13)
+    hublot (0.0.2)
+      rails (> 3.0.0)
 
 GEM
   remote: http://rubygems.org/
@@ -152,10 +152,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
+  bundler
   capybara
   factory_girl_rails
   guard-rspec
   hublot!
+  i18n
   jquery-rails
+  rake
+  rspec
   rspec-rails
   sqlite3
+  tzinfo

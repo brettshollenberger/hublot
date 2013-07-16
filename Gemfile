@@ -2,9 +2,13 @@ source "http://rubygems.org"
 
 gemspec
 
-gem "jquery-rails"
+group :development, :test do
+  gem "jquery-rails"
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem "guard-rspec"
+  gem "capybara"
+end
 
-gem "rspec-rails"
-gem "factory_girl_rails"
-gem "guard-rspec"
-gem "capybara"
+gem 'bundler'
+gem 'tzinfo'

@@ -9,14 +9,18 @@ Gem::Specification.new do |s|
   s.version     = Hublot::VERSION
   s.authors     = ["Brett Shollenberger"]
   s.email       = ["brett.shollenberger@gmail.com"]
-  s.homepage    = "brettshollenberger.com"
+  s.homepage    = "http://github.com/brettshollenberger/hublot"
   s.summary     = "Adds datetime humanization to Active Record objects."
   s.description = "Extends ActiveSupport::TimeWithZone"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.13"
+  s.add_dependency "rails", "> 3.0.0"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'activesupport'
+  s.add_development_dependency 'i18n'
+  s.add_development_dependency 'rake'
 end
