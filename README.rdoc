@@ -2,6 +2,19 @@
 
 Hublot makes Facebook-style datetime-contextual datetimes a cinch for your ActiveRecord objects. 
 
+== Use
+
+    gem "hublot", "~> 0.0.5"
+  
+Call the pretty method in your views:
+
+    <%= @comment.created_at.pretty %>
+    
+Hublot extends ActiveSupport::TimeWithZone, so the pretty method will work on any field of that class, 
+like the defaults baked into ActiveRecord, created_at and updated_at. 
+
+Hublot does not currently support other ORMs.
+
 == Examples
 
 ==== Comment created just now:
@@ -32,11 +45,3 @@ Hublot makes Facebook-style datetime-contextual datetimes a cinch for your Activ
 ==== After that:
 
     Monday, July 1 at 5:30PM
-  
-== Use
-
-    gem "hublot", "~> 0.0.5"
-  
-Call the pretty method in your views:
-
-    <%= @comment.created_at.pretty %>
