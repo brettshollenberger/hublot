@@ -38,12 +38,6 @@ Use
 =================================
 
     gem 'hublot'
-
-Include Hublot in your ActiveRecord models:
-
-    class Comment < ActiveRecord::Base
-      include Hublot
-    end
   
 Call the pretty method in your views:
 
