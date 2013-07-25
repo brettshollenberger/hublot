@@ -35,7 +35,7 @@ Hublot makes Facebook-style datetime-contextual datetimes a cinch for your Activ
   
 == Use
 
-    gem "hublot", "~> 0.0.4"
+    gem "hublot", "~> 0.0.6"
   
 Call the pretty method in your views:
 
